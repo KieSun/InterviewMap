@@ -243,7 +243,7 @@ export default function combineReducers(reducers) {
 
 `combineReducers` 函数总的来说很简单，总结来说就是接收一个对象，将参数过滤后返回一个函数。该函数里有一个过滤参数后的对象 finalReducers，遍历该对象，然后执行对象中的每一个 reducer 函数，最后将新的 state 返回。
 
-接下来让我们来看看 combinrReducers 中用到的两个函数
+接下来让我们来看看 combineReducers 中用到的两个函数
 
 ```js
 // 这是执行的第一个用于抛错的函数
