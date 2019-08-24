@@ -240,7 +240,7 @@ TCP will treat it as network congestion when timeout is reached in transmitting.
 
 1. reduce the current threshold of the congestion window to half
 2. set the value of the congestion window to 1 MSS
-3. start the Congestion Avoidance algorithms
+3. start the Slow-start 
 
 ### Fast Retransmit
 
